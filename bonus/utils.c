@@ -1,3 +1,15 @@
+/* ************************************************************************** */
+/*                                                                            */
+/*                                                        :::      ::::::::   */
+/*   utils.c                                            :+:      :+:    :+:   */
+/*                                                    +:+ +:+         +:+     */
+/*   By: mbenicho <marvin@42.fr>                    +#+  +:+       +#+        */
+/*                                                +#+#+#+#+#+   +#+           */
+/*   Created: 2022/11/24 20:21:12 by mbenicho          #+#    #+#             */
+/*   Updated: 2022/11/24 20:21:59 by mbenicho         ###   ########.fr       */
+/*                                                                            */
+/* ************************************************************************** */
+
 #include "push_swap_bonus.h"
 
 void	ft_lstfree(t_stack *list)
@@ -14,7 +26,7 @@ void	ft_lstfree(t_stack *list)
 
 void	ft_lstadd_back(t_stack **list, t_stack *new)
 {
-	t_stack *tmp;
+	t_stack	*tmp;
 
 	tmp = *list;
 	if (tmp)

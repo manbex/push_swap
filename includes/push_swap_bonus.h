@@ -1,3 +1,15 @@
+/* ************************************************************************** */
+/*                                                                            */
+/*                                                        :::      ::::::::   */
+/*   push_swap_bonus.h                                  :+:      :+:    :+:   */
+/*                                                    +:+ +:+         +:+     */
+/*   By: mbenicho <marvin@42.fr>                    +#+  +:+       +#+        */
+/*                                                +#+#+#+#+#+   +#+           */
+/*   Created: 2022/11/24 20:27:09 by mbenicho          #+#    #+#             */
+/*   Updated: 2022/11/24 20:27:12 by mbenicho         ###   ########.fr       */
+/*                                                                            */
+/* ************************************************************************** */
+
 #ifndef PUSH_SWAP_BONUS_H
 # define PUSH_SWAP_BONUS_H
 # define BUFFER_SIZE 4096
@@ -9,7 +21,7 @@
 typedef struct s_stack
 {
 	int				n;
-	int 			i;
+	int				i;
 	struct s_stack	*next;
 }	t_stack;
 

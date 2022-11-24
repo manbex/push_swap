@@ -1,3 +1,15 @@
+/* ************************************************************************** */
+/*                                                                            */
+/*                                                        :::      ::::::::   */
+/*   push_swap.h                                        :+:      :+:    :+:   */
+/*                                                    +:+ +:+         +:+     */
+/*   By: mbenicho <marvin@42.fr>                    +#+  +:+       +#+        */
+/*                                                +#+#+#+#+#+   +#+           */
+/*   Created: 2022/11/24 20:23:15 by mbenicho          #+#    #+#             */
+/*   Updated: 2022/11/24 20:24:30 by mbenicho         ###   ########.fr       */
+/*                                                                            */
+/* ************************************************************************** */
+
 #ifndef PUSH_SWAP_H
 # define PUSH_SWAP_H
 
@@ -8,7 +20,7 @@
 typedef struct s_stack
 {
 	int				n;
-	int 			i;
+	int				i;
 	struct s_stack	*next;
 }	t_stack;
 
@@ -38,7 +50,7 @@ void	rr(t_stack **a, t_stack **b);
 void	rra(t_stack **a);
 void	rrb(t_stack **b);
 void	rrr(t_stack **a, t_stack **b);
-int	find_pos(t_stack *a, int value);
+int		find_pos(t_stack *a, int value);
 void	merge_rotations(t_moves *m);
 void	do_best(t_stack **a, t_stack **b);
 
